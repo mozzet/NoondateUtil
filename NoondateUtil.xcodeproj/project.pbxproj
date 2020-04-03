@@ -22,6 +22,8 @@
 		90F06744243708BE0071480C /* UIButton+HitExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 90F06742243708BE0071480C /* UIButton+HitExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90F06746243708D80071480C /* AddWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F06745243708D80071480C /* AddWith.swift */; };
 		90F06748243709170071480C /* CGFloatLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F06747243709170071480C /* CGFloatLiteral.swift */; };
+		90F0674B243713E60071480C /* LXReorderableCollectionViewFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 90F06749243713E60071480C /* LXReorderableCollectionViewFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90F0674C243713E60071480C /* LXReorderableCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F0674A243713E60071480C /* LXReorderableCollectionViewFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		90F06742243708BE0071480C /* UIButton+HitExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HitExtension.h"; sourceTree = "<group>"; };
 		90F06745243708D80071480C /* AddWith.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWith.swift; sourceTree = "<group>"; };
 		90F06747243709170071480C /* CGFloatLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloatLiteral.swift; sourceTree = "<group>"; };
+		90F06749243713E60071480C /* LXReorderableCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXReorderableCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		90F0674A243713E60071480C /* LXReorderableCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXReorderableCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				90F06725243705CA0071480C /* NoondateUtil.h */,
+				90F06749243713E60071480C /* LXReorderableCollectionViewFlowLayout.h */,
+				90F0674A243713E60071480C /* LXReorderableCollectionViewFlowLayout.m */,
 				90F0672D243706420071480C /* SecureUDID.h */,
 				90F0672E243706420071480C /* SecureUDID.m */,
 				90F06731243706500071480C /* GTMDefines.h */,
@@ -108,6 +114,7 @@
 				90F06744243708BE0071480C /* UIButton+HitExtension.h in Headers */,
 				90F0673C243706500071480C /* GTMGarbageCollection.h in Headers */,
 				90F0673A243706500071480C /* GTMNSDictionary+URLArguments.h in Headers */,
+				90F0674B243713E60071480C /* LXReorderableCollectionViewFlowLayout.h in Headers */,
 				90F0673B243706500071480C /* GTMNSString+URLArguments.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,6 +190,7 @@
 			files = (
 				90F06740243706FF0071480C /* UITextField+Max.m in Sources */,
 				90F06738243706500071480C /* GTMNSDictionary+URLArguments.m in Sources */,
+				90F0674C243713E60071480C /* LXReorderableCollectionViewFlowLayout.m in Sources */,
 				90F06730243706420071480C /* SecureUDID.m in Sources */,
 				90F06748243709170071480C /* CGFloatLiteral.swift in Sources */,
 				90F06743243708BE0071480C /* UIButton+HitExtension.m in Sources */,
